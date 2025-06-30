@@ -15,3 +15,22 @@
      --fonte-primaria: "Pacifico  Static";
      --fonte-secundaria:"Barlow Semi Condensed Static";
 }
+
+body{
+     background-color: var(--azul);
+     color: var(--preto);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     font-family: var(--fonte-secundaria);
+ }
+ .caixa-principal{
+     background-color: var(--azul-claro);
+     width: 90%;
+     text-align: center;
+     padding: 20px;
+ }
+ .titulo{
+     font-family: var(--fonte-primaria);
+ }
